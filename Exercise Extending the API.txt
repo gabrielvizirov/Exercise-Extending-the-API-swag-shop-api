@@ -1,0 +1,14 @@
+   100. Exercise: Extending the API
+
+http://blog.devslopes.com/p/d0a43550-60aa-4326-983...
+
+Exercise - Extending the API
+15 JUNE 2017 by Mark Price
+You are going to extend our API and add more functionality.
+
+Requirements:
+
+1. Figure out how to move your routes ie app.get('/') into a separate routes file to clean up space in the server.js file
+2. Create endpoints for /cart and create the ability for a user to store and remove things from their cart. You will need to create the appropriate Mongoose Models.
+3. Create an endpoint for /sale-items. You will need to create the appropriate Mongoose Models. SaleItems model should have an array called relatedItems that shows other related products. Be sure to populate this array when fetching via the API.
+4. Experiment and have fun!
